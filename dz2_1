@@ -1,0 +1,3 @@
+my_list = [2, 'word', 24.3, None]
+for item in my_list:
+    print(f'{item} is {type(item)}')
