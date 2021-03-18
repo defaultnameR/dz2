@@ -1,0 +1,8 @@
+count = (input("Сколько элементов?"))
+elem = [i for i in range(int(count))]
+print(f" Элементы {elem}")
+a = 0
+for i in range(int(len(elem) / 2)):
+    elem[a], elem[a + 1] = elem[a+ 1], elem[a]
+    a += 2
+print(elem)
