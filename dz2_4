@@ -1,0 +1,5 @@
+print("Введите предложение ")
+for word in input().split():
+    if len(word) > 10:
+        word = word[0:10]
+    print(word)
